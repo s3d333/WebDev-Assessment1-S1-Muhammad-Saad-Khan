@@ -1,0 +1,76 @@
+
+/* A gray background for the main content area, with the font of inter */
+body {
+    background-color: #bfbfbf;
+    margin: 0;                    /* Removes website default margins */
+    font-family: 'Inter', sans-serif; 
+}
+/*  Fixed width for the center of the page that will containt all the text, and margins to center the layout */
+.wrapper {
+    width: 750px;
+    margin: 40px auto;
+    background-color: #e9e9e9;
+    padding: 60px 70px;   /* Spacing around the content */
+    border-radius: 25px;  /* Rounded corners */
+}
+/* Headings use a font that is similiar to the provided screenshot */
+h1, h2 {
+    font-family: 'Anton', sans-serif;
+    color: #3f8f12;
+    margin: 0;     /* Removes default margins for webpage */
+}
+/* A large title that is centered, and margins to keep from the bottom */
+h1 {
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 20px;    
+}
+/* A large heading style  */
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    color: white;
+    margin: 0 0 15px 0;  
+    letter-spacing: 2px;   /* Spacing between letters */
+    line-height: 1.1;
+}
+/* A smaller font size for text inside the highlight box */
+h4 {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+/* A class that will maintain spacing and alignment through out the page  */
+.section-title {
+    font-size: 55px;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+/* Black colour for main paragraphs*/
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #111;
+}
+/* A box that seperates from the rest of the page that is smaller and in the middle of the page */
+.highlight-box {
+    background-color: #3f8f12;
+    color: white;
+    padding: 35px;
+    border-radius: 30px; /* Rounded edges */
+    margin: 40px 0;
+}
+/* A font for the highlighted box that is white and larger */
+.highlight-box h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+/* Font for inside the box */
+.highlight-box p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+}
