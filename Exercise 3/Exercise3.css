@@ -1,0 +1,114 @@
+/* Styling for the entire webpage */
+/* Sets background colour to white and removes margin*/
+body {
+    background: white;
+    margin: 0;
+    font-family: Georgia, serif; /* Main font for webpage */
+}
+/* Main container that holds page content */
+.wrapper {
+    width: 900px;                   /* Wrapper has fixed width and controls layout size and keeps it center */
+    margin: 25px auto;
+    background: hsl(0, 0%, 89%);
+    padding: 20px 0 0 0;            /* Top padding to keep distance from the top */
+}
+/* A header section that contains the title and navigation*/
+header {
+    text-align: center;    /* Center align the text */
+    margin-bottom: 12px;    
+    padding: 0 25px;    /* Adds appropriate spacing between header */
+}
+/* Main page heading */
+/* Large font with margin distance top and bottom*/
+h1 {
+    font-size: 65px;   
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+/* Styling for the navigation text box */
+nav {
+    text-align: center;
+    padding: 10px 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* Styling for the text for navigation */
+nav a {
+    color: #0044cc;
+    font-size: 18px;
+    margin: 0 30px;  /* Top padding to keep distance from the top */
+}
+/* introduction section that changes distance for margin*/
+.intro {
+    margin-bottom: 28px;
+    overflow: hidden;
+    padding: 0 25px;
+}
+/* The container for the image that is to the right of the text */
+.side-image {
+    float: right;           /* Float helps the text around the image wrap under the image  */
+    margin-left: 24px;
+    margin-bottom: 5px;
+}
+/* Styling for the image */
+.side-image img {
+    width: 400px;
+    height: auto;
+    display: block;     /* Removes spacing issues because it had space before using this code */
+    box-shadow: 0 1px 8px rgba(0,0,0,0.3);   /* Adds shadow around the image */
+}
+/* Paragraph styling for the text section */
+.text p {
+    font-size: 17px;
+    margin-bottom: -5px;
+    line-height: 1.5;
+    color: #000000;  /* Black text colour */
+    margin-top: 5px;
+}
+/* A section that seperates the introdcution from the gallery section */
+.divider {
+    margin: 12px 25px 6px 25px;
+    clear: both;   /* Makes it so the content doesnt wrap around the element */
+}
+/* Gallery layour container */
+.row {
+    display: flex;   /* Aligns items horizontally so they stay in a layout*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    line-height: 0;
+    font-size: 0;
+    object-fit: cover;  /* Makes the image cover the space given adjusting its size to the box */
+}
+/* Styling for the video and image row */
+.row video,
+.row img {
+    background: #e8e8e8;
+    display: block;   /* Removes inline spacing */
+    margin: 0;
+    padding: 0;
+    border: none;  /* Removes the border */
+}
+/* Large video element */
+.video-large {
+    width: 110%;
+    height: 260px;  /* Adjusting the size of video */
+    object-fit: cover;
+}
+/* Large image that occupies row */
+.image-large {
+    width: 70%;
+    height: 260px;
+    object-fit: fill; /* Stretches image to fill container */
+}
+/* Smaller image */
+.image-smaller {
+    width: 35%;
+    height: 260px;
+    object-fit: cover;  /* Adjusts the size of image to fit the given dimension */
+}
+/* The bigger image in the same row as the smaller */
+.image-bigger {
+    width: 65%;
+    height: 260px;  /* Dimensions that fit within the wrapper for both images */
+}
