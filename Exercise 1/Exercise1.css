@@ -1,37 +1,47 @@
         /* Styling for the main body  */
+        /* Centers the page */
+        /* makes page smaller */
         body {
-            margin: 0 auto;           /* Centers the page */
-            max-width: 1000px;        /* makes page smaller */
+            margin: 0 auto;           
+            max-width: 1000px;        
         }
+
+        /* gray background colour  */
+        /* adds space inside the boxes  */
 
         .header, .footer, .note {
-            background: #cfcfcf;    /* gray background colour  */
-            padding: 25px;            /* adds space inside the boxes  */
+            background: #cfcfcf;    
+            padding: 25px;           
         }
 
+         /* spacing above the header  */
         .header {
-             margin-top: 10px;        /* spacing above the header  */
+             margin-top: 10px;       
         }
 
+        /* Space inside area  */
         .container {
-            padding: 10px;            /* Space inside area  */
+            padding: 10px;           
         }
 
+         /* Removes top margin and adds space below  */
         h1 {
-            margin: 0 0 10px 0;       /* Removes top margin and adds space below  */      
+            margin: 0 0 10px 0;            
             font-size: 40px;
         }
 
+        /* Space above headings  */
         h2 {
             font-size: 32px;
-            margin-top: 30px;         /* Space above headings  */   
+            margin-top: 30px;            
         }
 
         p {
             font-size: 20px;
         }
 
+        /* Space above footer */
         .footer {
-            margin-top: 30px;         /* Space above footer */   
+            margin-top: 30px;            
             font-size: 18px;
         }
