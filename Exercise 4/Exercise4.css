@@ -1,0 +1,103 @@
+/* The page background that will keep the background colour behind the wrapper*/
+body{
+    background:#ffffff;
+    margin:0;                       /* Removes default browser space */
+    font-family:Arial, sans-serif;
+}
+
+
+/* The wrapper that will contain main text, with a pink backgrou nd and fixed width and spacing */
+.wrapper{
+    width:750px;
+    margin:40px auto;
+    background:#ff5fa2;
+    padding:20px;
+}
+
+
+/* Header styling kept in the centre at the top of page*/
+header{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+
+/* A decorative divider image */
+.design{
+    width:100%;
+    height:auto;        /* Contains the aspect ratio across the wrapper*/
+    margin-bottom:10px;
+}
+
+
+/* Navigation menu that will keep it a list without bullet points and removes padding */
+nav ul{
+    list-style:none;
+    padding:0;
+}
+/* Displays list horizontally*/
+nav li{
+    display:inline;
+    margin:0 10px;
+}
+/* Blue text colour for navigation and bolded font for better readability */
+nav a{
+    text-decoration:none;
+    color:#0000cc;
+    font-weight:bold;
+}
+
+
+/* Cart icon with appropriate size and spacing*/
+.cart{
+    width:40px;
+    margin-top:10px;
+}
+
+
+/* Gallery section across the entire wrapper */
+.gallery{
+    width:100%;
+}
+
+
+/* Photo blocks that store the image to make it look like its a instant photo print for design*/
+.photo{
+    background:#f2eddc;
+    margin-bottom:30px;
+    padding:10px;
+}
+
+
+/* Styling for the image so it is across the photo keeping it within*/
+.photo img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+
+/* Styling for text under the photo with bold styling*/
+.photo p{
+    color:#2b8cab;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+
+/* Add to basket text */
+.basket{
+    color:black;
+    font-size:14px;
+}
+
+
+/* Footer styling it adds space above the footer and keeps indentation*/
+footer{
+    margin-top:20px;
+}
+
+footer ul{
+    padding-left:20px;
+    list-style:none;
+}
