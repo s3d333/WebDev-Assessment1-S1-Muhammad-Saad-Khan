@@ -1,7 +1,7 @@
 
 /* A gray background for the main content area, with the font of inter */
 body {
-    background-color: #bfbfbf;
+    background-color: #ffffff;
     margin: 0;                    /* Removes website default margins */
     font-family: 'Inter', sans-serif; 
 }
