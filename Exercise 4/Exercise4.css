@@ -76,15 +76,12 @@ nav a{
     display:block;
 }
 
-
-
-
-/* Add to basket text */
+/* Add to basket button text styling */
 .basket{
     color: #2b8cab;
     background: rgb(#f2eddc);
     padding: 8px 15px;
-    border: none;
+    border: 2px solid black;
     font-weight:bold;
 }
 
