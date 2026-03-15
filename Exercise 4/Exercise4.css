@@ -77,18 +77,15 @@ nav a{
 }
 
 
-/* Styling for text under the photo with bold styling*/
-.photo p{
-    color:#2b8cab;
-    font-weight:bold;
-    margin:10px 0;
-}
 
 
 /* Add to basket text */
 .basket{
-    color:black;
-    font-size:14px;
+    color: #2b8cab;
+    background: rgb(#f2eddc);
+    padding: 8px 15px;
+    border: none;
+    font-weight:bold;
 }
 
 
